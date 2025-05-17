@@ -1,12 +1,9 @@
-import { NativeModule, requireNativeModule } from 'expo';
+import { requireNativeModule } from 'expo-modules-core';
 
-import { ExpocllocationmanagerModuleEvents } from './Expocllocationmanager.types';
-
-declare class ExpocllocationmanagerModule extends NativeModule<ExpocllocationmanagerModuleEvents> {
-  PI: number;
-  hello(): string;
-  setValueAsync(value: string): Promise<void>;
+interface ExpocllocationmanagerModule {
+  getAuthorizationStatus(): string;
+  startTracking(): void;
+  stopTracking(): void;
 }
 
-// This call loads the native module object from the JSI.
 export default requireNativeModule<ExpocllocationmanagerModule>('Expocllocationmanager');

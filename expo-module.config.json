@@ -1,7 +1,8 @@
 {
   "platforms": ["apple", "android", "web"],
   "apple": {
-    "modules": ["ExpocllocationmanagerModule"]
+    "modules": ["ExpocllocationmanagerModule"],
+    "appDelegateSubscribers": ["LocationAppDelegateSubscriber"]
   },
   "android": {
     "modules": ["expo.modules.cllocationmanager.ExpocllocationmanagerModule"]
