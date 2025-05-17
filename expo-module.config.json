@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpocllocationmanagerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.cllocationmanager.ExpocllocationmanagerModule"]
+  }
+}
