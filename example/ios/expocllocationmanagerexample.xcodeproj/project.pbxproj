@@ -23,7 +23,7 @@
 		297ED5CD6F80025263F0CBD7 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-expocllocationmanagerexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		35B3A0E72ED5A7F5256518F3 /* libPods-expocllocationmanagerexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-expocllocationmanagerexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		859DCED3EBF2A7675A5BE68D /* Pods-expocllocationmanagerexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expocllocationmanagerexample.debug.xcconfig"; path = "Target Support Files/Pods-expocllocationmanagerexample/Pods-expocllocationmanagerexample.debug.xcconfig"; sourceTree = "<group>"; };
-		97219E381CD75423C0A2695E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = expocllocationmanagerexample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		97219E381CD75423C0A2695E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = expocllocationmanagerexample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = expocllocationmanagerexample/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		CA946351D43FE57CCC96197B /* Pods-expocllocationmanagerexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expocllocationmanagerexample.release.xcconfig"; path = "Target Support Files/Pods-expocllocationmanagerexample/Pods-expocllocationmanagerexample.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +128,6 @@
 				859DCED3EBF2A7675A5BE68D /* Pods-expocllocationmanagerexample.debug.xcconfig */,
 				CA946351D43FE57CCC96197B /* Pods-expocllocationmanagerexample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -29,6 +29,11 @@
     },
     "autolinking": {
       "nativeModulesDir": ".."
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf4cc902-03a0-4441-bbe1-faebf7987ba6"
+      }
     }
   }
 }

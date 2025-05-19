@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "expo": "~53.0.9",
+    "expo-location": "^18.1.5",
+    "expocllocationmanager": "../",
     "react": "19.0.0",
-    "react-native": "0.79.2",
-    "expocllocationmanager": "../"
+    "react-native": "0.79.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
